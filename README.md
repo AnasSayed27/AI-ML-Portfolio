@@ -40,4 +40,4 @@ Below is a list of the projects included in this portfolio. Each project is cont
 Feel free to explore each project folder for a deeper dive into the code and analysis!
 
 ---
-*Connect with me: [LinkedIn](https://www.linkedin.com/in/soberhuman) | [Email](soberbeing78@gmail.com) | [GitHub](https://github.com/Sober-Human/AI-ML-Portfolio)*
+*Connect with me: [LinkedIn](https://www.linkedin.com/in/soberhuman) | [Email](soberbeing78@gmail.com) | [GitHub](https://github.com/AnasSayed27/AI-ML-Portfolio)*
