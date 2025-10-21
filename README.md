@@ -1,6 +1,6 @@
 # AI & Machine Learning Project Portfolio
 
-Welcome to my portfolio of AI and Machine Learning projects! This repository contains a collection of my work, demonstrating my skills in data analysis, feature engineering, model building, and evaluation.
+Welcome to my portfolio of AI and Machine Learning projects! This repository contains a collection of my work, demonstrating my skills in data analysis, feature engineering, model building, evaluation, **and emerging Generative AI techniques**.
 
 ## About Me
 I am an aspiring AI Engineering Student with a strong foundation in Exploratory Data Analysis (EDA), machine learning algorithms (both supervised and unsupervised), and core data science principles. I am passionate about leveraging data to solve real-world problems.
@@ -23,6 +23,21 @@ Below is a list of the projects included in this portfolio. Each project is cont
 - **Key Skills:** Feature Engineering, EDA, Correlation Analysis, Model Building (Linear Regression, Random Forest), Model Evaluation (R², MAE, MSE).
 - **Result:** The Random Forest Regressor model significantly outperformed the baseline, achieving an R² score of 0.69.
 
+### 3. [RAG Ethics Q&A Chatbot](./RAG-Ethics-Chatbot/)
+- **Type:** Generative AI (Retrieval-Augmented Generation)
+- **Objective:** To build an LLM-powered chatbot that answers queries on AI ethics using grounded retrieval from a custom fact dataset, reducing hallucinations.
+- **Key Skills:** Embeddings (Sentence Transformers), Vector Retrieval (Cosine Similarity), Prompt Engineering, LLM Generation (Hugging Face GPT-2), Evaluation (ROUGE-L Score).
+- **Result:** Achieved ROUGE-L score of ~0.10 on 10 test ethics questions—deployable prototype for real-world Q&A apps.
+
 ---
 
+## Featured Projects
+**Quick links to dive in:**
+- **[Customer Churn Prediction](Customer-Churn-Prediction/)**: 81% accuracy classification model. [Notebook](Customer-Churn-Prediction/Customer_Churn_Prediction.ipynb)
+- **[Car Price Prediction](Car-Price-Prediction/)**: R²=0.69 regression with feature engineering. [Notebook](Car-Price-Prediction/Car_Price_Prediction.ipynb)
+- **[RAG Ethics Chatbot (GenAI)](RAG-Ethics-Chatbot/)**: LLM prototype with retrieval grounding. [Notebook](RAG-Ethics-Chatbot/RAG_Ethics_Chatbot.ipynb)
+
 Feel free to explore each project folder for a deeper dive into the code and analysis!
+
+---
+*Connect with me: [LinkedIn](https://www.linkedin.com/in/soberhuman) | [Email](soberbeing78@gmail.com) | [GitHub](https://github.com/Sober-Human/AI-ML-Portfolio)*
