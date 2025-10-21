@@ -1,0 +1,50 @@
+AI ethics is the study of moral principles guiding the design, use, and impact of artificial intelligence.
+Fairness ensures AI systems do not discriminate against individuals or groups.
+Algorithmic bias occurs when AI produces unfair outcomes due to skewed training data or flawed design.
+Bias can enter through biased datasets, human labeling errors, or unbalanced model training.
+Transparency means making AI decision processes understandable to humans.
+Explainability helps users trust AI by showing how decisions are made.
+Accountability ensures humans remain responsible for AI outcomes, not the machines.
+Data privacy means protecting personal information used in AI training and deployment.
+GDPR requires AI systems to handle personal data lawfully, fairly, and transparently.
+Informed consent means users agree to how their data is collected and used.
+AI safety focuses on preventing unintended harmful consequences from AI systems.
+Narrow AI raises immediate ethical issues, while general AI raises long‑term existential risks.
+Surveillance AI refers to systems that monitor people, raising privacy and civil liberty concerns.
+Diverse teams reduce bias and create more inclusive AI systems.
+Deepfakes are AI‑generated fake media that raise concerns about misinformation.
+AI can generate realistic but false content, amplifying fake news.
+Ethical AI design integrates fairness, accountability, and transparency from the start.
+Human‑in‑the‑loop AI is an approach where humans oversee and guide AI decisions.
+Oversight prevents harmful autonomous decisions and ensures accountability.
+AI governance is the framework of policies and rules guiding responsible AI use.
+Value alignment ensures AI systems act in line with human values.
+Ethical data sourcing means collecting data legally, fairly, and without exploitation.
+Algorithmic transparency means disclosing how algorithms work and what data they use.
+The accountability gap is the difficulty of assigning responsibility when AI causes harm.
+Autonomous weapon AI raises ethical debates about human control in warfare.
+AI discrimination occurs when systems unfairly disadvantage certain groups.
+Ethical auditing checks AI systems for fairness, bias, and compliance with laws.
+An AI transparency report explains how a system was trained, tested, and deployed.
+Ethical AI deployment means releasing AI responsibly with safeguards for fairness, privacy, and safety.
+Explainability makes AI decisions understandable, while interpretability makes models simpler to analyze.
+Ethical AI regulation refers to laws and policies that enforce responsible practices.
+The EU AI Act classifies AI risks and regulates high‑risk systems.
+Ethical AI research studies impacts and develops responsible methods for AI development.
+AI should respect human rights such as privacy, dignity, and freedom.
+AI accountability requires clear assignment of responsibility for outcomes.
+Ethical AI requires balancing innovation with societal well‑being.
+AI systems should avoid reinforcing harmful stereotypes.
+Responsible AI development includes testing for unintended consequences.
+AI ethics emphasizes inclusivity in design and deployment.
+AI should be designed to minimize environmental impact.
+Ethical AI requires continuous monitoring after deployment.
+AI should be accessible and beneficial to all, not just privileged groups.
+Ethical AI requires clear communication of limitations and risks.
+AI should support human decision‑making, not replace it entirely.
+Ethical AI requires collaboration between technologists, policymakers, and society.
+AI ethics involves anticipating long‑term consequences of technology.
+AI should be designed to enhance human flourishing.
+Ethical AI requires balancing efficiency with fairness and justice.
+AI ethics emphasizes trustworthiness as a foundation for adoption.
+Responsible AI requires ongoing dialogue between developers and users.
