@@ -1,0 +1,50 @@
+LangChain is an open-source framework designed for building end-to-end applications powered by Large Language Models (LLMs).
+Its core modules include data connectors, model I/O, chains, agents, memory, callbacks, and a wide range of utilities for orchestration.
+LCEL (LangChain Expression Language) offers a declarative and readable syntax for linking multiple components together.
+Chains define structured workflows that connect prompts, LLMs, and parsers—executed sequentially, conditionally, or in parallel.
+Agents use reasoning capabilities of LLMs to decide actions dynamically via the ReAct prompting technique with external tools.
+Retrieval modules enable Retrieval-Augmented Generation (RAG) by embedding, indexing, and fetching documents to minimize hallucinations.
+LangChain can be installed using pip install langchain and extended via integrations like langchain-openai or langchain-community.
+Prompts act as templates with variables or placeholders, dynamically filled with runtime inputs for contextual queries.
+Models wrap LLM endpoints such as OpenAI, Anthropic, or Hugging Face models with configurable parameters like temperature and max tokens.
+Output parsers enforce structured formatting, ensuring consistent outputs such as JSON, CSV, or clean plain text.
+Memory modules maintain conversation context through buffer, summary, or vector-based approaches for continuity across sessions.
+Callbacks capture intermediate steps, metrics, and runtime errors for better logging, observability, and debugging.
+Data loaders import and preprocess data from formats like PDFs, CSVs, or HTML pages, which can then be indexed into VectorStores.
+Tools extend agent functionality by providing external APIs or actions, such as Wikipedia lookup or custom Python functions annotated with @tool.
+Evaluation pipelines use LangSmith and similarity-based metrics to assess RAG and chain performance quantitatively.
+Agent types include Zero-shot ReAct, OpenAI Functions, and Plan-and-Execute agents for complex workflows.
+Simple linear pipelines can be constructed using prompt | llm | parser syntax for quick prototyping.
+RetrievalQA chains answer user queries grounded in document datasets using retrievers and LLMs.
+Agents with memory allow multi-turn, context-aware conversations across dynamic tasks.
+Utilities include schema management, data parsing, and integration with FastAPI or Streamlit for rapid app deployment.
+Popular VectorStores include FAISS, Pinecone, Weaviate, and Chroma for scalable similarity search.
+Embeddings can be generated through OpenAI, Hugging Face, Cohere, or local models for offline processing.
+Document chunking divides large texts into smaller units, improving retrieval accuracy and response grounding.
+ConversationalRetrievalChain combines retriever and memory to create advanced context-aware chatbots.
+Async chains enable parallel and concurrent execution to enhance performance and reduce latency.
+LangChain supports integrations with external APIs such as SerpAPI, WolframAlpha, and DuckDuckGo Search.
+Streaming responses provide real-time token-by-token LLM output for a smoother user experience.
+Guardrails and schema validation can be added using structured output parsers or model validators.
+LangChain Hub hosts and shares reusable prompts, chains, and agent templates from the community.
+Agents can call multiple tools in a single interaction and adaptively choose the next step based on results.
+Few-shot prompting allows including examples in templates to guide model reasoning or formatting style.
+LangChain includes SQLDatabaseChain for querying SQL databases using natural language.
+Multi-modal support enables processing both text and visual inputs, such as images and diagrams.
+Hybrid retrieval techniques combine dense vector search and sparse keyword search for better accuracy.
+LangChain integrates with major cloud providers like AWS, Azure, and GCP for scalable deployments.
+Self-correcting agents can detect inconsistencies and re-query tools to improve reliability.
+Batch processing capabilities allow handling multiple inputs or documents simultaneously.
+Chains can be serialized, stored, and shared as JSON or YAML for portability and reuse.
+LCEL improves readability and maintainability of complex pipeline definitions.
+Memory options include buffer, summary, and vector memory types for varied conversational persistence.
+LangChain supports curated evaluation datasets for benchmarking and fine-tuning RAG systems.
+Agents can be sandboxed or restricted to specific tool whitelists for operational safety.
+Tight integration with LangSmith enables advanced observability, logging, and version tracking.
+Prompt engineering remains central to improving accuracy, consistency, and interpretability of chain outputs.
+Retrievers can be powered by ElasticSearch, Milvus, or custom-built embeddings-based systems.
+Agents can use structured function-calling APIs to generate verifiable JSON outputs.
+Conversational agents maintain dialogue flow by carrying over prior context between turns.
+RAG pipelines anchor model outputs in factual data sources, reducing hallucinations significantly.
+LangChain powers chatbots, copilots, research assistants, and enterprise knowledge retrieval systems globally.
+Its growing open-source community contributes plugins, templates, benchmarks, and tutorials for continuous evolution.
