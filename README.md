@@ -23,11 +23,11 @@ Below is a list of the projects included in this portfolio. Each project is cont
 - **Key Skills:** Feature Engineering, EDA, Correlation Analysis, Model Building (Linear Regression, Random Forest), Model Evaluation (R², MAE, MSE).
 - **Result:** The Random Forest Regressor model significantly outperformed the baseline, achieving an R² score of 0.69.
 
-### 3. [RAG Ethics Q&A Chatbot](./RAG-Ethics-Chatbot/)
+### 3. [DevDocs AI: RAG Q&A for Developer Docs](./DevDocs-AI-RAG-Chatbot/)
 - **Type:** Generative AI (Retrieval-Augmented Generation)
-- **Objective:** To build an LLM-powered chatbot that answers queries on AI ethics using grounded retrieval from a custom fact dataset, reducing hallucinations.
-- **Key Skills:** Embeddings (Sentence Transformers), Vector Retrieval (Cosine Similarity), Prompt Engineering, LLM Generation (Hugging Face GPT-2), Evaluation (ROUGE-L Score).
-- **Result:** Achieved ROUGE-L score of ~0.10 on 10 test ethics questions—deployable prototype for real-world Q&A apps.
+- **Objective:** To build a chatbot that provides instant, accurate answers from technical documentation, significantly reducing developer search time.
+- **Key Skills:** LangChain, Hugging Face Transformers, FAISS (Vector Store), Streamlit, Embeddings, Prompt Engineering, ROUGE-L Score.
+- **Result:** Achieved a ROUGE-L score of ~0.10, demonstrating a functional prototype for building specialized, fact-based Q&A applications for developers.
 
 ---
 
@@ -35,7 +35,7 @@ Below is a list of the projects included in this portfolio. Each project is cont
 **Quick links to dive in:**
 - **[Customer Churn Prediction](ClassificationProject(CustomerChurnPred)/)**: 81% accuracy classification model. [Notebook](ClassificationProject(CustomerChurnPred)/Polished_ClassificationProject.ipynb)
 - **[Car Price Prediction](RegressionProject(CarPricePred)/)**: R²=0.69 regression with feature engineering. [Notebook](RegressionProject(CarPricePred)/Polished_RegressionProject.ipynb)
-- **[RAG Ethics Chatbot (GenAI)](RAG-Ethics-Chatbot/)**: LLM prototype with retrieval grounding. [Notebook](RAG-Ethics-Chatbot/RAG_Ethics_Chatbot.ipynb)
+- **[DevDocs AI (GenAI)](./DevDocs-AI-RAG-Chatbot/)**: RAG prototype that accelerates developer workflows. [Notebook](./DevDocs-AI-RAG-Chatbot/DevDocs_AI_Notebook.ipynb)
 
 Feel free to explore each project folder for a deeper dive into the code and analysis!
 
