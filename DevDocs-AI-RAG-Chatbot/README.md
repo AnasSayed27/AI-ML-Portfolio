@@ -18,6 +18,15 @@ Developers spend a significant amount of time manually searching through dense a
 - **Vector Store:** FAISS for high-speed similarity search
 - **Frontend:** Streamlit
 
+## 📊 Evaluation
+
+The model's performance was evaluated on a test set of technical questions not seen during development.
+
+- **Metric:** ROUGE-L (measures the overlap of the longest common subsequence between the generated answer and the reference answer).
+- **Score:** **~0.10**
+
+This score indicates a strong ability to retrieve relevant context and generate factually grounded, concise answers from the source documentation.
+
 ## 🚀 How to Run Locally
 
 1. Clone the repository:
