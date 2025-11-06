@@ -11,24 +11,24 @@ I am an aspiring AI Engineering Student with a strong foundation in Exploratory 
 
 Below is a list of the projects included in this portfolio. Each project is contained within its own folder and includes a detailed notebook and a specific README file.
 
-### 1. [Customer Churn Prediction](./ClassificationProject(CustomerChurnPred)/)
-- **Type:** Classification
-- **Objective:** To predict whether a telecom customer will churn based on their account and usage data.
-- **Key Skills:** EDA, Data Cleaning, Feature Engineering (One-Hot Encoding), Model Comparison (Logistic Regression, Random Forest, XGBoost), Evaluation Metrics (Accuracy, Precision, Recall).
-- **Result:** Developed a logistic regression model with 81% accuracy and a strong recall of 57% for identifying churners, making it the most effective model for this business case.
-
-### 2. [Car Price Prediction](./RegressionProject(CarPricePred)/)
-- **Type:** Regression
-- **Objective:** To predict the selling price of used cars based on features like age, brand, and kilometers driven.
-- **Key Skills:** Feature Engineering, EDA, Correlation Analysis, Model Building (Linear Regression, Random Forest), Model Evaluation (R², MAE, MSE).
-- **Result:** The Random Forest Regressor model significantly outperformed the baseline, achieving an R² score of 0.69.
-
-### 3. [DevDocs AI: RAG Q&A for Developer Docs](./DevDocs-AI-RAG-Chatbot/)
+### 1. [DevDocs AI: RAG Q&A for Developer Docs](./DevDocs-AI-RAG-Chatbot/)
 ![DevDocs AI Demo](https://github.com/AnasSayed27/AI-ML-Portfolio/blob/main/media/RAG-GIF.gif)
 - **Type:** Generative AI (Retrieval-Augmented Generation)
 - **Objective:** To build a chatbot that provides instant, accurate answers from technical documentation, significantly reducing developer search time.
 - **Key Skills:** LangChain, Hugging Face Transformers, FAISS (Vector Store), Streamlit, Embeddings, Prompt Engineering, ROUGE-L Score.
 - **Result:** Achieved a ROUGE-L score of ~0.10, demonstrating a functional prototype for building specialized, fact-based Q&A applications for developers.
+
+### 2. [Customer Churn Prediction](./ClassificationProject(CustomerChurnPred)/)
+- **Type:** Classification
+- **Objective:** To predict whether a telecom customer will churn based on their account and usage data.
+- **Key Skills:** EDA, Data Cleaning, Feature Engineering (One-Hot Encoding), Model Comparison (Logistic Regression, Random Forest, XGBoost), Evaluation Metrics (Accuracy, Precision, Recall).
+- **Result:** Developed a logistic regression model with 81% accuracy and a strong recall of 57% for identifying churners, making it the most effective model for this business case.
+
+### 3. [Car Price Prediction](./RegressionProject(CarPricePred)/)
+- **Type:** Regression
+- **Objective:** To predict the selling price of used cars based on features like age, brand, and kilometers driven.
+- **Key Skills:** Feature Engineering, EDA, Correlation Analysis, Model Building (Linear Regression, Random Forest), Model Evaluation (R², MAE, MSE).
+- **Result:** The Random Forest Regressor model significantly outperformed the baseline, achieving an R² score of 0.69.
 
 ---
 
