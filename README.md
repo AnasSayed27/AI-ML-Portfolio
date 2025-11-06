@@ -24,6 +24,7 @@ Below is a list of the projects included in this portfolio. Each project is cont
 - **Result:** The Random Forest Regressor model significantly outperformed the baseline, achieving an R² score of 0.69.
 
 ### 3. [DevDocs AI: RAG Q&A for Developer Docs](./DevDocs-AI-RAG-Chatbot/)
+![DevDocs AI Demo](https://github.com/AnasSayed27/AI-ML-Portfolio/blob/main/media/RAG-GIF.gif)
 - **Type:** Generative AI (Retrieval-Augmented Generation)
 - **Objective:** To build a chatbot that provides instant, accurate answers from technical documentation, significantly reducing developer search time.
 - **Key Skills:** LangChain, Hugging Face Transformers, FAISS (Vector Store), Streamlit, Embeddings, Prompt Engineering, ROUGE-L Score.
