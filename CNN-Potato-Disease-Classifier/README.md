@@ -8,7 +8,7 @@ A deep learning project built with TensorFlow and Keras to accurately classify p
 
 - **Validation Accuracy:** Achieved **~92.66%** on the test dataset.
 - **Model Performance:** The training history demonstrates a stable learning curve with minimal overfitting, confirmed by the validation accuracy and loss metrics.
-- **Classification Report:** The model shows high precision and recall across all three classes, effectively distinguishing between healthy and diseased leaves.
+- **Classification Report:** Sample predictions show the model can visually distinguish between healthy, early blight, and late blight leaves with high confidence.
 
 ![Training and Validation Accuracy/Loss Plot](https://github.com/user-attachments/assets/8f50ed83-02a5-4f2f-8b59-5d3051e00ec4)
 
@@ -19,7 +19,7 @@ A deep learning project built with TensorFlow and Keras to accurately classify p
 - **Frameworks:** TensorFlow, Keras
 - **Libraries:** NumPy, Matplotlib, Scikit-learn
 - **Dataset:** PlantVillage
-- **Environment:** Jupyter Notebook / Google Colab
+- **Environment:** Jupyter Notebook
 
 ---
 
