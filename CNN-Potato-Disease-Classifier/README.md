@@ -46,6 +46,14 @@ The project utilizes a custom-built Convolutional Neural Network. The architectu
 
 ---
 
+### 📦 Dataset & Model Download
+Due to GitHub file-size limits, both the dataset and trained model are hosted externally:
+
+- 📂 **Dataset (PlantVillage – Potato Subset):** [Google Drive Link](https://drive.google.com/drive/folders/1EokxDSpmwKCCbj9slmkoHWDwcGEoYLB3?usp=sharing)  
+- 🤖 **Trained Model (.h5):** [Google Drive Link](https://drive.google.com/file/d/1Y4tTJ00aDStkFY_ilKKsl9u4na6ZeuX0/view?usp=sharing)
+
+---
+
 ### 🚀 How to Run
 
 1.  **Clone the repository:**
