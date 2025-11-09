@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Potato Disease Classifier</title>
+  <style>
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; 
+      text-align: center; 
+      margin-top: 50px; 
+      background-color: #f7f7f7; 
+    }
+    .container {
+      width: 420px; 
+      margin: auto; 
+      padding: 30px;
+      border-radius: 12px; 
+      background: white; 
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    h2 { 
+      color: #2e7d32; 
+    }
+    input[type=file] { 
+      margin-top: 15px; 
+    }
+    button {
+      margin-top: 20px; 
+      padding: 10px 20px; 
+      background: #2e7d32; 
+      color: white;
+      border: none; 
+      border-radius: 6px; 
+      cursor: pointer; 
+      font-weight: bold;
+      font-size: 1em;
+    }
+    button:hover { 
+      background: #388e3c; 
+    }
+    img {
+      margin-top: 20px; 
+      width: 250px; 
+      height: 250px; /* Set fixed height for consistency */
+      object-fit: cover; /* Ensures image fills the box nicely */
+      border-radius: 10px;
+      border: 1px solid #ddd; 
+      display: none; /* Starts hidden */
+      
+      /* --- THIS IS THE FIX --- */
+      margin-left: auto;
+      margin-right: auto;
+      /* ----------------------- */
+    }
+    .result {
+      margin-top: 20px; 
+      font-size: 1.2em; 
+      font-weight: bold; 
+      color: #1565c0;
+      
+      /* --- OPTIMIZATION (Prevents layout jump) --- */
+      min-height: 1.5em; 
+      /* ------------------------------------------- */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>🥔 Potato Disease Classifier</h2>
+    
+    <form id="uploadForm">
+      <input id="fileInput" type="file" name="file" accept="image/*" required>
+      <br>
+      <button type="submit">Predict</button>
+    </form>
+
+    <img id="preview" src="#" alt="Uploaded Image">
+
+    <div id="result" class="result"></div>
+    
+  </div>
+
+  <script>
+    const fileInput = document.getElementById("fileInput");
+    const preview = document.getElementById("preview");
+    const form = document.getElementById("uploadForm");
+    const resultDiv = document.getElementById("result");
+
+    // Show preview when image is chosen
+    fileInput.onchange = evt => {
+      // Clear any previous prediction
+      resultDiv.innerText = ""; 
+      
+      const [file] = fileInput.files;
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          preview.src = e.target.result;
+          preview.style.display = "block"; // Show the image
+        }
+        reader.readAsDataURL(file);
+      }
+    };
+
+    // Handle form submission with 'fetch' (asynchronous)
+    form.onsubmit = async evt => {
+      evt.preventDefault(); // Stop the page from reloading
+
+      if (!fileInput.files[0]) {
+        resultDiv.innerText = "Please select an image file first.";
+        return;
+      }
+
+      // Show a loading message
+      resultDiv.innerText = "Predicting...";
+      
+      const formData = new FormData();
+      formData.append("file", fileInput.files[0]);
+
+      try {
+        // Send the file to the backend
+        const response = await fetch("/predict", {
+          method: "POST",
+          body: formData
+        });
+
+        if (!response.ok) {
+          throw new Error(`Error: ${response.statusText}`);
+        }
+
+        const data = await response.json(); // Get the JSON response
+        
+        // Display the result
+        resultDiv.innerText = `Prediction: ${data.label} (Confidence: ${data.confidence.toFixed(2)}%)`;
+
+      } catch (error) {
+        console.error("Prediction error:", error);
+        resultDiv.innerText = "An error occurred during prediction.";
+      }
+    };
+  </script>
+</body>
+</html>
