@@ -1,88 +1,61 @@
-# 🥔 Potato Disease Classification using a Convolutional Neural Network (CNN)
+# 🥔 Potato Disease Classifier - A Deep Learning Web App
 
-A deep learning project built with TensorFlow and Keras to accurately classify potato leaf images into three distinct categories: **Healthy**, **Early Blight**, and **Late Blight**. This tool is designed to help automate the detection of common diseases, potentially aiding in early intervention to protect crop yields.
-
----
-
-### 📊 Key Results & Performance
-
-- **Validation Accuracy:** Achieved **~92.66%** on the test dataset.
-- **Model Performance:** The training history demonstrates a stable learning curve with minimal overfitting, confirmed by the validation accuracy and loss metrics.
-- **Classification Report:** Sample predictions show the model can visually distinguish between healthy, early blight, and late blight leaves with high confidence.
-
-![Training and Validation Accuracy/Loss Plot](https://github.com/user-attachments/assets/8f50ed83-02a5-4f2f-8b59-5d3051e00ec4)
+This project is an end-to-end web application that uses a **Convolutional Neural Network (CNN)** to classify potato leaf images as **Healthy**, **Early Blight**, or **Late Blight**. Users can upload an image and receive a real-time prediction with a confidence score.
 
 ---
 
-### ⚙️ Tech Stack & Libraries
+### ✨ Live Demo
 
-- **Frameworks:** TensorFlow, Keras
-- **Libraries:** NumPy, Matplotlib, Scikit-learn
-- **Dataset:** PlantVillage
-- **Environment:** Jupyter Notebook
+This application is fully functional. Here is a demonstration of the user workflow:
 
----
-
-### 🧠 Model Architecture
-
-The project utilizes a custom-built Convolutional Neural Network. The architecture was designed to effectively learn hierarchical features from the leaf images:
-
-1.  **Input Layer:** Processes images of size (256, 256, 3).
-2.  **Convolutional Layers:** Multiple `Conv2D` layers with `ReLU` activation functions to extract key features like edges, textures, and patterns on the leaves.
-3.  **Pooling Layers:** `MaxPooling2D` layers to down-sample the feature maps, reducing computational complexity and preventing overfitting.
-4.  **Flatten Layer:** Converts the 2D feature maps into a 1D vector.
-5.  **Dense Layers:** Fully connected layers that perform the final classification.
-6.  **Output Layer:** A `Dense` layer with a `softmax` activation function to output the probability for each of the three classes.
+![Potato Disease Classifier Demo GIF](https://github.com/AnasSayed27/AI-ML-Portfolio/blob/main/media/CNN-GIF.gif)
 
 ---
 
-### 📋 Project Workflow
+### 📊 Model Performance
 
-1.  **Data Loading & Preprocessing:** Loaded the image dataset from the PlantVillage repository. Images were resized and normalized.
-2.  **Data Augmentation:** Applied transformations (e.g., rotation, flipping) to the training data to increase its diversity and make the model more robust to variations in real-world images.
-3.  **Model Training:** Trained the CNN on the augmented dataset, using the Adam optimizer and Sparse Categorical Crossentropy as the loss function.
-4.  **Evaluation:** Assessed the model's performance on a held-out test set to ensure its generalization capabilities.
-5.  **Model Saving:** The trained model has been saved as an `.h5` file for easy reuse and future deployment.
+- **Validation Accuracy:** **~92.66%** on the test dataset.
+- The model demonstrates a stable learning curve with high precision and recall across all three classes.
 
 ---
 
-### 📦 Dataset & Model Download
-Due to GitHub file-size limits, both the dataset and trained model are hosted externally:
+### ⚙️ Tech Stack & Architecture
 
-- 📂 **Dataset (PlantVillage – Potato Subset):** [Google Drive Link](https://drive.google.com/drive/folders/1EokxDSpmwKCCbj9slmkoHWDwcGEoYLB3?usp=sharing)  
-- 🤖 **Trained Model (.h5):** [Google Drive Link](https://drive.google.com/file/d/1Y4tTJ00aDStkFY_ilKKsl9u4na6ZeuX0/view?usp=sharing)
+- **Backend:** FastAPI, Python
+- **Frontend:** HTML, CSS (via a templates folder)
+- **Deep Learning:** TensorFlow, Keras
+- **Libraries:** NumPy, Scikit-learn, Pillow
 
 ---
 
-### 🚀 How to Run
+### 🚀 How to Run Locally
 
-1.  **Clone the repository:**
+1.  **Clone the Repository & Navigate to the Project:**
     ```bash
     git clone https://github.com/AnasSayed27/AI-ML-Portfolio.git
+    cd Potato-Disease-Classification
     ```
-2.  **Navigate into the project folder:**
-    ```bash
-    cd CNN-Potato-Disease-Classifier
-    ```
-3.  **Install the required dependencies:**
+2.  **Download the Model File:**
+    Download the trained model (`model.h5`) from the [Google Drive link provided here](https://drive.google.com/file/d/1Y4tTJ00aDStkFY_ilKKsl9u4na6ZeuX0/view?usp=sharing) and place it in the root of this project folder. *(Note: This step requires Git LFS to be installed if cloning directly).*
+3.  **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-4.  **Run the Jupyter Notebook:**
+4.  **Run the FastAPI Server:**
     ```bash
-    jupyter notebook Potato_Disease_Classifier.ipynb
+    uvicorn app:app --reload
     ```
-    
----
-
-### 🔮 Future Work
-
-- **Deployment:** Deploy the trained model using a web framework like **FastAPI** to create a REST API for predictions.
-- **Real-Time Application:** Integrate the API with a mobile application using **TensorFlow Lite** to allow for real-time disease detection in the field.
+5.  **Access the App:** Open your web browser and go to `http://127.0.0.1:8000`.
 
 ---
 
-### 🙏 Credits & Acknowledgements
+### 📋 Project Workflow & Development
 
-- This project was inspired by the **Codebasics Deep Learning Series**.
-- The dataset is provided by the **PlantVillage** project.
+This project was developed in three key phases, moving from pure research to a functional application:
+
+1.  **Experimentation & Training:** A Convolutional Neural Network (CNN) was designed and trained in a Jupyter Notebook. The focus was on achieving high accuracy and robust generalization using the PlantVillage dataset and data augmentation techniques.
+
+2.  **AI-Assisted Application Scaffolding:** To accelerate the transition from research to a usable product, AI-assisted development was leveraged to rapidly scaffold the backend API and frontend interface. This involved generating the boilerplate code for the FastAPI routes and the basic HTML/CSS structure.
+
+3.  **Core Logic & Integration:** With the application shell in place, the primary focus shifted to the core engineering challenge: seamlessly integrating the saved TensorFlow model (`.h5`) into the FastAPI backend. This included writing the logic for image preprocessing, making predictions, and ensuring the final output was correctly formatted and sent to the frontend.
+---
