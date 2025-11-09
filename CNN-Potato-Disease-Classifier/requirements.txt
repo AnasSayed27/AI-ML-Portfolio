@@ -2,3 +2,9 @@ tensorflow>=2.0.0
 numpy
 matplotlib
 pandas
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
+tensorflow
+jinja2
