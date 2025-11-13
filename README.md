@@ -8,8 +8,7 @@ Hello! I'm Anas, a Computer Science student passionate about building practical,
 
 ### 1. [DevDocs AI: RAG Q&A for Developer Docs](./DevDocs-AI-RAG-Chatbot/)
 ![DevDocs AI Demo](https://github.com/AnasSayed27/AI-ML-Portfolio/blob/main/media/RAG-GIF.gif)
-- **Type:** Generative AI (Retrieval-Augmented Generation)
-- **Objective:** To build a chatbot that provides instant, accurate answers from technical documentation, significantly reducing developer search time.
+A RAG-powered chatbot built from the ground up, featuring a custom vector search engine implemented with Python and NumPy. It ingests technical documentation and provides instant, accurate answers to complex queries.
 - **Key Skills:** LangChain, Hugging Face Transformers, FAISS (Vector Store), Streamlit, Embeddings, Prompt Engineering, ROUGE-L Score.
 - **Result:** Achieved a ROUGE-L score of ~0.10, demonstrating a functional prototype for building specialized, fact-based Q&A applications for developers.
 
