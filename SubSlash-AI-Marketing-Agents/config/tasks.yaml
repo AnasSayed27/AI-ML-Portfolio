@@ -1,0 +1,112 @@
+market_research:
+  description: >
+    Conduct deep market research on the "Subscription Economy" and "Personal Finance Management" (PFM) tools.
+    Identify the top 3 competitors (like Rocket Money or Trim) and analyze their weaknesses (e.g., high fees, bad UI).
+    Find recent trends in "Subscription Fatigue" among Millennials.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+    <Budget>{budget}</Budget>
+    Current date: {current_date}
+
+  expected_output: >
+    A market research report containing:
+    - Competitor Analysis (Strengths/Weaknesses)
+    - User Pain Points (Why do they hate canceling?)
+    - Unique Selling Proposition (Why our AI negotiator is better)
+    - Pricing Strategy recommendations
+
+prepare_marketing_strategy:
+  description: >
+    Develop a Go-To-Market strategy specifically for a FinTech app.
+    Focus on "Trust-Building" campaigns and "Money-Saving" challenges.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+    Current date: {current_date}
+
+  expected_output: >
+    A marketing strategy document including:
+    - Key Trust Signals to highlight (Bank Security, Privacy)
+    - The "Stop the Bleed" campaign concept
+    - Plan for 3 Blog Posts, 2 Reels, and 5 Social Posts
+    - Budget allocation
+    Store in 'resources/drafts/marketing_strategy.md'.
+
+create_content_calendar:
+  description: >
+    Create a 1-week content calendar focused on "Financial Wellness Week."
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+    Current date: {current_date}
+
+  expected_output: >
+    A calendar table with:
+    - Day 1-7 plan
+    - Mix of "Educational" (Blogs) and "Viral" (Reels) content
+    Store in 'resources/drafts/content_calendar.md'.
+
+prepare_post_drafts:
+  description: >
+    Draft social media posts that hook users by showing how much money they waste on unused subs.
+    Use specific examples (e.g., "That Gym membership you haven't used since Jan").
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+    Current date: {current_date}
+
+  expected_output: >
+    Drafts for LinkedIn (Professional/Industry view), Twitter (Snappy/Tips), and Instagram (Visual/Relatable).
+    Save in 'resources/drafts/posts/' folder.
+
+prepare_scripts_for_reels:
+  description: >
+    Write viral scripts for Reels/TikTok. Focus on the "POV" format:
+    "POV: You tried to cancel your Gym membership but they asked for a blood sacrifice." -> "Solution: Use SubSlash AI."
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+    Current date: {current_date}
+
+  expected_output: >
+    2 Reel Scripts with:
+    - Visual Hook description
+    - Spoken audio script
+    - Caption text
+    Save in 'resources/drafts/reels/' folder.
+
+content_research_for_blogs:
+  description: >
+    Research high-volume keywords related to "How to cancel [Service]" and "Best budgeting apps."
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+    Current date: {current_date}
+
+  expected_output: >
+    SEO Keyword Report + Blog Outlines for topics like:
+    - "The Hidden Cost of Zombie Subscriptions"
+    - "How AI Can Negotiate Your Bills Better Than You"
+
+draft_blogs:
+  description: >
+    Write full blog posts based on the research. Tone should be: "Your smart financial friend."
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+    Current date: {current_date}
+
+  expected_output: >
+    3 Full Blog Posts saved in 'resources/drafts/blogs/' folder.
+
+seo_optimization:
+  description: >
+    Optimize the blog drafts. Add internal linking opportunities and ensure "Transactional Intent" keywords are present.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+    Current date: {current_date}
+
+  expected_output: >
+    Final SEO-polished blogs ready for CMS upload.
