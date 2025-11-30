@@ -37,7 +37,7 @@ Generated autonomously and stored in `resources/drafts/`:
 ## 🛠️ Tech Stack
 
 - **Framework:** [CrewAI](https://crewai.com)  
-- **LLM:** Google Gemini 1.5 Flash  
+- **LLM:** Google Gemini 2.5 Flash lite
 - **Language:** Python 3.10+  
 - **Tools:** Custom orchestration & file I/O  
 
@@ -53,4 +53,5 @@ pip install crewai crewai-tools
 
 # Run the crew
 python crew.py
+
 ```
