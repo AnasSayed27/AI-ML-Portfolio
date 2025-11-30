@@ -55,3 +55,14 @@ pip install crewai crewai-tools
 python crew.py
 
 ```
+
+## ⚙️ Configuration & Customization
+
+### **Model & Rate Limits**
+This project is configured to use **Google Gemini 2.5 Flash Lite** (or similar fast inference models) via the `litellm` / `crewai` interface.
+
+**Important Note on Rate Limits:**
+To ensure stability on free-tier API keys, the agents are currently throttled with a conservative rate limit:
+```python
+# In crew.py
+max_rpm=10 # Requests per minute
