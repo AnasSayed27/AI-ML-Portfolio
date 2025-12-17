@@ -45,7 +45,6 @@ This score indicates a strong ability to retrieve relevant context and generate 
     cd AI-ML-Portfolio/DevDocs-AI-RAG-Chatbot
     ```
 3.  **Install Dependencies:**
-    *(Ensure you have created the `requirements.txt` file)*
     ```bash
     pip install -r requirements.txt
     ```
