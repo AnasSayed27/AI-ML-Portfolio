@@ -1,0 +1,9 @@
+transformers
+sentence-transformers
+datasets
+rouge-score
+streamlit
+evaluate
+tf-keras
+numpy
+torch
