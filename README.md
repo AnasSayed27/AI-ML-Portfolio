@@ -41,4 +41,4 @@ A full-stack deep learning application that classifies potato leaf diseases from
 | **FullStack Goals App** | AI-assisted prototype of a mobile productivity app. | `React Native`, `Expo`, `Prompt Engineering` | [View Code](https://github.com/AnasSayed27/GoalsApp) |
 
 ---
-*Connect with me: [LinkedIn](https://www.linkedin.com/in/soberhuman) | [Email](soberbeing78@gmail.com) | [GitHub](https://github.com/AnasSayed27/AI-ML-Portfolio)*
+*Connect with me: [LinkedIn](https://www.linkedin.com/in/soberhuman) | [Email](soberbeing78@gmail.com) | [Portfolio](https://anassayed27.github.io/)*
