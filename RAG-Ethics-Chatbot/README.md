@@ -27,4 +27,4 @@ My first hands-on GenAI project: A Retrieval-Augmented Generation (RAG) system f
 - Applied prompt engineering for context grounding.
 - Next: Scale with FAISS for larger DBs; fine-tune LLM.
 
-Questions? [LinkedIn](www.linkedin.com/in/soberhuman).
+Questions? [LinkedIn](https://www.linkedin.com/in/anassayed27/).
