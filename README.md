@@ -34,4 +34,4 @@ A hierarchical **multi-agent system** built with **CrewAI** that simulates a ful
 | **FullStack Goals App** | AI-assisted prototype of a mobile productivity app. | `React Native`, `Expo`, `Prompt Engineering` | [View Code](https://github.com/AnasSayed27/GoalsApp) |
 
 ---
-*Connect with me: [LinkedIn](https://www.linkedin.com/in/soberhuman) | [Email](soberbeing78@gmail.com) | [Portfolio](https://anassayed27.github.io/)*
+*Connect with me: [LinkedIn](https://www.linkedin.com/in/anassayed27/) | [Email](anas.sayed004@gmail.com) | [Portfolio](https://anassayed27.github.io/)*
